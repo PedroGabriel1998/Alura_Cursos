@@ -1,0 +1,35 @@
+	A seguir, definirei comandos basicos para o git na tentativa de ne auxiliar nas proximas vezes que instalarei o git em outra máquina:
+
+Definir nome do usuario que esta alterando:
+	git config --local user.name "Seu nome aqui"
+
+Definir email do usuario:
+	git config --local user.email "seu@email.aqui"
+
+Iniciar uma pasta sobre vigia do Git:
+	git init
+
+Retornar status de como a pasta se encontra perante as atualizações:
+	git status
+
+Adiciona todos os arquivos:
+	git add . (Para não ser todos, passar o nome do arquivo. Ex.: "git add index.html")
+
+Upload de arquivos pelo Git:
+	git commit -m "mensagem desejada para status"
+
+Exibindo status dos commits:
+	git log (normal);
+	git log --oneline (direto);
+	git log -p (completo).
+
+	Link para mais comandos: <https://devhints.io/git-log>.
+
+Primeiro arquivo:
+	Criar um "README.md" dizendo os objetivos do repositorio
+
+Ignorando arquivos:
+	Criar um arquivo chamado ".gitignore" e adicionar neste documento o nome dos arquivos a serem ignorados.
+
+Criando conexão entre repositorio local e do github
+	git remote add origin link. EX.: git remote add origin https://github.com/PedroGabriel1998/Git_Github.git
